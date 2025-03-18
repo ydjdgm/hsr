@@ -1,7 +1,8 @@
 <script>
     import Logo from "./logo.svelte";
     import ThemeBtn from "./themeBtn.svelte";
-    import NavbarTglBtn from "./navbarTglBtn.svelte";
+    import HamburgerBtn from "./hamburgerBtn.svelte";
+    import LanguageSelecterBtn from "./languageSelecterBtn.svelte";
 </script>
 
 <!-- 가로 -->
@@ -13,7 +14,7 @@
                 <ThemeBtn />
             </li>
             <li>
-                <NavbarTglBtn />
+                <HamburgerBtn />
             </li>
         </ul>
     </div>
@@ -27,7 +28,7 @@
             <ThemeBtn />
         </li>
         <li>
-            <NavbarTglBtn />
+            <LanguageSelecterBtn />
         </li>
     </ul>
 </div>
