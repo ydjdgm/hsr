@@ -1,12 +1,2 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @plugin "daisyui";
-
-/* 기본 다크 테마 적용 */
-html[data-theme="dark"] {
-    @apply bg-gray-900 text-white;
-}
-
-/* 라이트 테마 */
-html[data-theme="light"] {
-    @apply bg-white text-black;
-}

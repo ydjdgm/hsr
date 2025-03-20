@@ -1,15 +1,10 @@
-<script lang="ts">
-	import { i18n } from "$lib/i18n";
-	import { ParaglideJS } from "@inlang/paraglide-sveltekit";
-	import "../app.css";
-
-	import Navbar from "$lib/components/navbar.svelte";
-
-	let { children } = $props();
+<script>
+    let { children } = $props();
+    import Navbar from "$lib/components/navbar.svelte";
+    import Frame from "$lib/components/frame.svelte";
+    import "../app.css";
 </script>
 
-<ParaglideJS {i18n}>
-	{@render children()}
-</ParaglideJS>
+{@render children()}
 
 <Navbar />

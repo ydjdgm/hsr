@@ -33,7 +33,7 @@
     {#if theme === "dark"}
         <!-- 🌙 다크 모드 아이콘 -->
         <svg
-            class="swap-off h-10 w-10 fill-current"
+            class="swap-off h-8 w-8 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
         >
@@ -44,7 +44,7 @@
     {:else}
         <!-- ☀️ 라이트 모드 아이콘 -->
         <svg
-            class="swap-on h-10 w-10 fill-current"
+            class="swap-on h-8 w-8 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
         >
