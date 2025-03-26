@@ -5,13 +5,15 @@
     import LanguageSelectorBtn from "./lanSelector.svelte";
     import HomeIcon from "./svg/homeIcon.svelte";
     import CharIcon from "./svg/charIcon.svelte";
+    import LcIcon from "./svg/lcIcon.svelte";
+    import RelIcon from "./svg/relIcon.svelte";
     import { t } from "svelte-i18n";
 
     const menuItems = [
         { name: "home", icon: HomeIcon, link: "/" },
         { name: "char", icon: CharIcon, link: "/characters" },
-        // { name: "lc", icon: "lcIcon", link: "/light-cones" },
-        // { name: "rel", icon: "relIcon", link: "/relics" },
+        { name: "lc", icon: LcIcon, link: "/light-cones" },
+        { name: "rel", icon: RelIcon, link: "/relics" },
     ];
 </script>
 
