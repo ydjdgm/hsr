@@ -7,14 +7,14 @@
 </script>
 
 <h1 class="flex text-[50px]">
-    Honkai:<Typewriter
+    Honkai:Star<Typewriter
         interval={100}
         mode="loopOnce"
         delay={2000}
         wordInterval={1500}
     >
-        <h1>Tlqkf좆망겜</h1>
-        <h1>Starrail Wiki</h1>
+        <h1>Gay</h1>
+        <h1>rail</h1>
     </Typewriter>
 </h1>
 

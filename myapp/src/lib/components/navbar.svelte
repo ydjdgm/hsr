@@ -34,7 +34,7 @@
 
 <!-- 세로 -->
 <div
-    class="hidden sm:flex flex-col w-64 min-h-screen bg-base-300 shadow-sm fixed top-0 left-0"
+    class="hidden sm:flex flex-col w-64 min-h-screen bg-base-300 shadow-sm fixed top-0 left-0 overflow-x-hidden overflow-y-auto"
 >
     <Logo />
     <ul class="menu menu-vertical flex-1 absolute top-15 left-0 pl-0">
