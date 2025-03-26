@@ -11,9 +11,9 @@
 
     const menuItems = [
         { name: "home", icon: HomeIcon, link: "/" },
-        { name: "char", icon: CharIcon, link: "/characters" },
-        { name: "lc", icon: LcIcon, link: "/light-cones" },
-        { name: "rel", icon: RelIcon, link: "/relics" },
+        { name: "char", icon: CharIcon, link: "/char" },
+        { name: "lc", icon: LcIcon, link: "/lc" },
+        { name: "rel", icon: RelIcon, link: "/rel" },
     ];
 </script>
 

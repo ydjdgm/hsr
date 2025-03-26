@@ -13,7 +13,7 @@
 
 {#if loaded}
     <Navbar />
-    <main class="flex-1 p-10 ml-64">
+    <main class="flex-1 p-10 pl-50 ml-64">
         {@render children()}
     </main>
 {/if}
