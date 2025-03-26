@@ -1,7 +1,6 @@
 <script>
-    import Frame from "$lib/components/frame.svelte";
+    import { t } from "svelte-i18n";
 </script>
 
-<Frame>
-    <h1>heeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeelo</h1>
-</Frame>
+<h1>{$t("hello")}</h1>
+<iframe title="DDUDDA" src={$t("DDUDDA")}></iframe>
