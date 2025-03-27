@@ -13,7 +13,9 @@
 
 {#if loaded}
     <Navbar />
-    <main class="flex-1 p-10 pl-50 pr-50 ml-64 overflow-auto">
+    <main
+        class="flex flex-col flex-1 items-center p-10 ml-64 overflow-x-hidden overflow-y-auto"
+    >
         {@render children()}
     </main>
 {/if}

@@ -1,20 +1,20 @@
 <script>
     import { t } from "svelte-i18n";
     import Typewriter from "svelte-typewriter";
-    import { concurrent, loop } from "svelte-typewriter";
 
     const words = ["Hello Svelte", "Hello World", "Hello Universe"];
 </script>
 
-<h1 class="flex text-[50px]">
-    Honkai:Star<Typewriter
+<h1 class="text-[50px] flex">
+    Honkai:Star
+    <Typewriter
         interval={100}
         mode="loopOnce"
         delay={2000}
         wordInterval={1500}
     >
-        <h1>Gay</h1>
-        <h1>rail Wiki</h1>
+        <span>Gay</span>
+        <span>rail Wiki</span>
     </Typewriter>
 </h1>
 
