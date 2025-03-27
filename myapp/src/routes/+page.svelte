@@ -14,7 +14,7 @@
         wordInterval={1500}
     >
         <h1>Gay</h1>
-        <h1>rail</h1>
+        <h1>rail Wiki</h1>
     </Typewriter>
 </h1>
 
